@@ -49,7 +49,7 @@ class App extends Component {
         <InputField
           label={`Enter the first number :`}
           name={`num1`}
-          type={`number`}
+          type={`tel`}
           numField={this.state.num1}
           clickField={this.onClick("num1")}
           inputChange={this.onChange("num1")}
@@ -57,7 +57,7 @@ class App extends Component {
         <InputField
           label={`Enter the second number :`}
           name={`num2`}
-          type={`number`}
+          type={`tel`}
           numField={this.state.num2}
           clickField={this.onClick("num2")}
           inputChange={this.onChange("num2")}
