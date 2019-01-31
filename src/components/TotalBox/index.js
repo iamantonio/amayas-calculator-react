@@ -10,7 +10,6 @@ function TotalBox(props) {
   return (
     <Input
       size={`huge`}
-      disabled
       style={styles}
       label={props.label}
       value={props.value}

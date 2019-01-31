@@ -17,6 +17,7 @@ function InputField(props) {
       value={props.numField}
       onClick={props.clickField}
       onChange={props.inputChange}
+      type={props.type}
     />
   );
 }

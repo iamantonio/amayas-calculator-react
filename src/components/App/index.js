@@ -44,11 +44,12 @@ class App extends Component {
 
   render() {
     return (
-      <Container style={{ display: `grid` }}>
+      <Container fluid style={{ display: `grid` }}>
         <AppHeader title={`Amaya's Calculator`} />
         <InputField
           label={`Enter the first number :`}
           name={`num1`}
+          type={`number`}
           numField={this.state.num1}
           clickField={this.onClick("num1")}
           inputChange={this.onChange("num1")}
@@ -56,6 +57,7 @@ class App extends Component {
         <InputField
           label={`Enter the second number :`}
           name={`num2`}
+          type={`number`}
           numField={this.state.num2}
           clickField={this.onClick("num2")}
           inputChange={this.onChange("num2")}
