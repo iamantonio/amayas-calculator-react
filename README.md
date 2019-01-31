@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Amaya's Addition Calculator
+
+This project was created to help my 5 year old daughter understand how programming an app can tell the computer what to do. She wanted a simple addition calculator as a project and watched how it was put together from the ground up. 
 
 ## Available Scripts
 
